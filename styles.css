@@ -1,0 +1,74 @@
+html {
+    display: block;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.mono-title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    background-color: lightyellow;
+}
+
+.table-name {
+    font-weight: 500;
+}
+
+table {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+thead {
+    background-color: black;
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+}
+
+th {
+    display: table-cell;
+    color: ghostwhite;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+}
+
+tbody {
+    display: table-row-group;
+}
+
+td {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
